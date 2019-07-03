@@ -1,0 +1,23 @@
+csrfmiddlewaretoken=jq4sh9tPU8hUhmYSfnS93ovR0kQfG4F6PIp1tNnH8XFtIl0QXsj6lDbl6Jv0HuJF&a=rohit&b=rohit12345678&c=r&d=rohit&e=xyq%40gmail.com
+
+GET /api/1/
+HTTP 200 OK
+Allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS
+Content-Type: application/json
+Vary: Accept
+
+{
+    "id": 1,
+    "password": "pbkdf2_sha256$150000$BH9K1iNpcW9z$G+WZEQ+S2q9oUxsRx+3Z8OaREbHqE8FssMdDmDZLzUE=",
+    "last_login": "2019-06-29T18:09:50.026632Z",
+    "is_superuser": true,
+    "username": "sunil",
+    "first_name": "",
+    "last_name": "",
+    "email": "xyz@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-06-29T09:26:07.764882Z",
+    "groups": [],
+    "user_permissions": []
+}
