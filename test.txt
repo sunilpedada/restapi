@@ -21,3 +21,56 @@ Vary: Accept
     "groups": [],
     "user_permissions": []
 }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTTP 201 Created
+Allow: GET, POST, HEAD, OPTIONS
+Content-Type: application/json
+Vary: Accept
+
+{
+    "id": 1,
+    "password": "sunil",
+    "last_login": "2020-09-05T16:27:00Z",
+    "is_superuser": false,
+    "username": "chai",
+    "first_name": "chai chai",
+    "last_name": "chai chai chai",
+    "email": "chai@gmail.com",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2019-07-04T16:28:02.577208Z",
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTTP 201 Created
+Allow: GET, POST, HEAD, OPTIONS
+Content-Type: application/json
+Vary: Accept
+
+{
+    "id": 1,
+    "Name": "sunil",
+    "Purpose": "nothing",
+    "Industry": "something",
+    "Company": "chai chai",
+    "Details": "tea",
+    "Status": 2,
+    "Users": [
+        1
+    ]
+}
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+https://stackoverflow.com/questions/51532288/django-rest-auth-error-save-takes-1-positional-argument-but-2-were-given
+
+Forbidden (CSRF token missing or incorrect.): /api/authregistration/
+[15/Jul/2019 00:34:12] "POST /api/authregistration/ HTTP/1.1" 403 2513
+
+
+
+
+-----------------------------------------------------------------------------
+Exception Location:
+P:\pycharmcommunity\importentfl\Labelling-Project\venv\lib\site-packages\django\forms\fields.py in __init__, line 1109
